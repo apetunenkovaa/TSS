@@ -4,181 +4,181 @@
     <EntitySetMapping Name="Achievements">
       <EntityTypeMapping TypeName="HelpdeskModel.Achievements">
         <MappingFragment StoreEntitySet="Achievements">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Description" ColumnName="Description" />
           <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Categories">
       <EntityTypeMapping TypeName="HelpdeskModel.Categories">
         <MappingFragment StoreEntitySet="Categories">
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="DailyTasks">
       <EntityTypeMapping TypeName="HelpdeskModel.DailyTasks">
         <MappingFragment StoreEntitySet="DailyTasks">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Description" ColumnName="Description" />
-          <ScalarProperty Name="Image" ColumnName="Image" />
-          <ScalarProperty Name="XP" ColumnName="XP" />
           <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="XP" ColumnName="XP" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Documents">
       <EntityTypeMapping TypeName="HelpdeskModel.Documents">
         <MappingFragment StoreEntitySet="Documents">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
           <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Executors">
       <EntityTypeMapping TypeName="HelpdeskModel.Executors">
         <MappingFragment StoreEntitySet="Executors">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="HistoryEntries">
       <EntityTypeMapping TypeName="HelpdeskModel.HistoryEntries">
         <MappingFragment StoreEntitySet="HistoryEntries">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="UserId" ColumnName="UserId" />
-          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
           <ScalarProperty Name="UpdateDescription" ColumnName="UpdateDescription" />
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="ImportanceTypes">
       <EntityTypeMapping TypeName="HelpdeskModel.ImportanceTypes">
         <MappingFragment StoreEntitySet="ImportanceTypes">
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Levels">
       <EntityTypeMapping TypeName="HelpdeskModel.Levels">
         <MappingFragment StoreEntitySet="Levels">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Kind" ColumnName="Kind" />
           <ScalarProperty Name="RequiredScore" ColumnName="RequiredScore" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Positions">
       <EntityTypeMapping TypeName="HelpdeskModel.Positions">
         <MappingFragment StoreEntitySet="Positions">
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Roles">
       <EntityTypeMapping TypeName="HelpdeskModel.Roles">
         <MappingFragment StoreEntitySet="Roles">
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Solutions">
       <EntityTypeMapping TypeName="HelpdeskModel.Solutions">
         <MappingFragment StoreEntitySet="Solutions">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
           <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="TicketDocuments">
       <EntityTypeMapping TypeName="HelpdeskModel.TicketDocuments">
         <MappingFragment StoreEntitySet="TicketDocuments">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
           <ScalarProperty Name="DocumentId" ColumnName="DocumentId" />
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Tickets">
       <EntityTypeMapping TypeName="HelpdeskModel.Tickets">
         <MappingFragment StoreEntitySet="Tickets">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Description" ColumnName="Description" />
-          <ScalarProperty Name="Requester" ColumnName="Requester" />
-          <ScalarProperty Name="OpeningDate" ColumnName="OpeningDate" />
-          <ScalarProperty Name="TicketStateId" ColumnName="TicketStateId" />
-          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
-          <ScalarProperty Name="ImportanceTypeId" ColumnName="ImportanceTypeId" />
-          <ScalarProperty Name="SolutionId" ColumnName="SolutionId" />
           <ScalarProperty Name="LastUpdate" ColumnName="LastUpdate" />
+          <ScalarProperty Name="SolutionId" ColumnName="SolutionId" />
+          <ScalarProperty Name="ImportanceTypeId" ColumnName="ImportanceTypeId" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="TicketStateId" ColumnName="TicketStateId" />
+          <ScalarProperty Name="OpeningDate" ColumnName="OpeningDate" />
+          <ScalarProperty Name="Requester" ColumnName="Requester" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="TicketStates">
       <EntityTypeMapping TypeName="HelpdeskModel.TicketStates">
         <MappingFragment StoreEntitySet="TicketStates">
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="UserAchievements">
       <EntityTypeMapping TypeName="HelpdeskModel.UserAchievements">
         <MappingFragment StoreEntitySet="UserAchievements">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="AchievementID" ColumnName="AchievementID" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AchievementID" ColumnName="AchievementID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="UserDailyTasks">
       <EntityTypeMapping TypeName="HelpdeskModel.UserDailyTasks">
         <MappingFragment StoreEntitySet="UserDailyTasks">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="DailyTasksID" ColumnName="DailyTasksID" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="DailyTasksID" ColumnName="DailyTasksID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="HelpdeskModel.Users">
         <MappingFragment StoreEntitySet="Users">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="LastName" ColumnName="LastName" />
-          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
-          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
-          <ScalarProperty Name="UserName" ColumnName="UserName" />
-          <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
-          <ScalarProperty Name="PositionId" ColumnName="PositionId" />
-          <ScalarProperty Name="UserStateId" ColumnName="UserStateId" />
-          <ScalarProperty Name="Visible" ColumnName="Visible" />
-          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="Photo" ColumnName="Photo" />
-          <ScalarProperty Name="Score" ColumnName="Score" />
-          <ScalarProperty Name="Level" ColumnName="Level" />
           <ScalarProperty Name="XP" ColumnName="XP" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Visible" ColumnName="Visible" />
+          <ScalarProperty Name="UserStateId" ColumnName="UserStateId" />
+          <ScalarProperty Name="PositionId" ColumnName="PositionId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="UserStates">
       <EntityTypeMapping TypeName="HelpdeskModel.UserStates">
         <MappingFragment StoreEntitySet="UserStates">
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

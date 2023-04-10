@@ -102,8 +102,8 @@
     <Compile Include="Pages\Page_Achievment.xaml.cs">
       <DependentUpon>Page_Achievment.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Page_Anything.xaml.cs">
-      <DependentUpon>Page_Anything.xaml</DependentUpon>
+    <Compile Include="Pages\Page_ActivityMenu.xaml.cs">
+      <DependentUpon>Page_ActivityMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Page_Authorization.xaml.cs">
       <DependentUpon>Page_Authorization.xaml</DependentUpon>
@@ -111,9 +111,8 @@
     <Compile Include="Pages\Page_DailyTasks.xaml.cs">
       <DependentUpon>Page_DailyTasks.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Page_Home.xaml.cs">
-      <DependentUpon>Page_Home.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Classes\PartialHistory.cs" />
+    <Compile Include="Classes\PartialTickets.cs" />
     <Compile Include="Positions.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -144,6 +143,12 @@
     <Compile Include="UserStates.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Window_AddUpdateTickets.xaml.cs">
+      <DependentUpon>Window_AddUpdateTickets.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Window_Users.xaml.cs">
+      <DependentUpon>Window_Users.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -160,7 +165,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Page_Anything.xaml">
+    <Page Include="Pages\Page_ActivityMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -172,7 +177,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Page_Home.xaml">
+    <Page Include="Windows\Window_AddUpdateTickets.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Window_Users.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

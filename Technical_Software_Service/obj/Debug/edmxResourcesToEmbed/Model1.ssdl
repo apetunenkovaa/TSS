@@ -110,7 +110,7 @@
     <Property Name="CategoryId" Type="int" Nullable="false" />
     <Property Name="ImportanceTypeId" Type="int" Nullable="false" />
     <Property Name="SolutionId" Type="int" Nullable="false" />
-    <Property Name="LastUpdate" Type="datetime" Nullable="false" />
+    <Property Name="LastUpdate" Type="datetime" />
   </EntityType>
   <EntityType Name="TicketStates">
     <Key>
