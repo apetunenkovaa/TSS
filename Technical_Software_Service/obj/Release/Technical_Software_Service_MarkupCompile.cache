@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service\obj\Debug\
+C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service\obj\Release\
 Technical_Software_Service
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service\App.xaml
 7164516656
 21750853300
@@ -16,5 +16,5 @@ C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service
 19-193338256
 MainWindow.xaml;Pages\Page_Achievment.xaml;Pages\Page_ActivityMenu.xaml;Pages\Page_Authorization.xaml;Pages\Page_DailyTasks.xaml;Windows\Window_AddUpdateTickets.xaml;Windows\Window_Users.xaml;
 
-False
+True
 
