@@ -99,3 +99,4 @@ C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service
 C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service\obj\Debug\Technical_Software_Service.csproj.GenerateResource.cache
 C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service\obj\Debug\Technical_Software_Service.csproj.CoreCompileInputs.cache
 C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service\obj\Debug\Technical_Software_Service.csproj.CopyComplete
+C:\Users\apetu\Source\Repos\Technical_Software_Servic\Technical_Software_Service\obj\Debug\Technical_Software_Service.csproj.AssemblyReference.cache
